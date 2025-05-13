@@ -1,8 +1,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: react-ssr-template
-  title: React SSR Template
+  name: github-deployment-test
+  title: New Github  Repo
   description: Create a website powered with Next.js
   tags:
     - recommended
