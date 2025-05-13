@@ -13,22 +13,23 @@ spec:
   parameters:
     - title: Provide some simple information
       required:
-        - component_id
-        - owner
+        - repo_name
+        - description
+        - admin
       properties:
-        component_id:
+        repo_name:
           title: Name
           type: string
-          description: Unique name of the component
+          description: Name of the github repo
           ui:field: EntityNamePicker
         description:
           title: Description
           type: string
-          description: Help others understand what this website is for.
-        owner:
-          title: Owner
+          description: Description for the Github repo
+        admin:
+          title: Admin
           type: string
-          description: Owner of the component
+          description: Comma seperate list of Admins
           ui:field: OwnerPicker
           ui:options:
             allowedKinds:
