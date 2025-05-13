@@ -3,13 +3,13 @@ kind: Template
 metadata:
   name: github-deployment-test
   title: New Github  Repo
-  description: Create a website powered with Next.js
+  description: Create a New github Repo
   tags:
     - recommended
     - react
 spec:
   owner: user:guest
-  type: website
+  type: service
   parameters:
     - title: Provide some simple information
       required:
