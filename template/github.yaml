@@ -31,9 +31,6 @@ spec:
           type: string
           description: Comma seperate list of Admins
           ui:field: OwnerPicker
-          ui:options:
-            allowedKinds:
-              - Group
     - title: Choose a location
       required:
         - repoUrl
