@@ -30,7 +30,6 @@ spec:
           title: Admin
           type: string
           description: Comma seperate list of Admins
-          ui:field: OwnerPicker
     - title: Choose a location
       required:
         - repoUrl
