@@ -5,8 +5,7 @@ metadata:
   title: New Github  Repo
   description: Create a New github Repo
   tags:
-    - recommended
-    - react
+    - github
 spec:
   owner: user:guest
   type: service
